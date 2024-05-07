@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@900&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>andee robite | portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p class="title">Best viewed on a PC.</p>
+    <p>Please allow a moment for the high-quality images to fully load before exploring. Your patience is greatly appreciated.</p>
+  </div>
+</div>
+  
+<header onclick="closeTabContent()">
+  <div class="header-content">
+      <img src="images/header_img.gif" alt="Animated GIF">
+      <div>
+          <h1>andee robite</h1>
+          <p class="subtext">graphic designer and illustrator<br>from concept to creation</p>
+      </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="tabs">
+    <div class="tab" onclick="showContent(1)">
+      <p>game<br>banners</p>
+      <img src="images/thumbs/thumb_game_banners.jpg" alt="game banners">
+      <div class="tab-description">game banners</div>
+    </div>
+    <div class="tab" onclick="showContent(2)">
+      <p>game<br>blogs</p>
+      <img src="images/thumbs/thumb_game_blogs.jpg" alt="game blogs">
+      <div class="tab-description">game blogs</div>
+    </div>
+    <div class="tab" onclick="showContent(3)">
+      <p>game<br>headers</p>
+      <img src="images/thumbs/thumb_game_headers.jpg" alt="game headers">
+      <div class="tab-description">game headers</div>
+    </div>
+    <div class="tab" onclick="showContent(4)">
+      <p>character<br>design</p>
+      <img src="images/thumbs/thumb_character_design.jpg" alt="character design">
+      <div class="tab-description">character design</div>
+    </div>
+    <div class="tab" onclick="showContent(5)">
+      <p>web<br>design</p>
+      <img src="images/thumbs/thumb_web_design.jpg" alt="web design">
+      <div class="tab-description">web design</div>
+    </div>
+    <div class="tab" onclick="showContent(6)">
+      <p>blog<br>articles</p>
+      <img src="images/thumbs/thumb_blog_articles.jpg" alt="blog articles">
+      <div class="tab-description">blog articles</div>
+    </div>
+  </div>
+
+  <div id="content1" class="content">
+    <img src="images/game_banners/banners_1.jpg" alt="banners 1">
+    <img src="images/game_banners/banners_2.jpg" alt="banners 2">
+    <img src="images/game_banners/banners_3.jpg" alt="banners 3">
+    <img src="images/game_banners/banners_4.jpg" alt="banners 4">
+    <img src="images/game_banners/banners_5.jpg" alt="banners 5">
+    <img src="images/game_banners/banners_6.jpg" alt="banners 6">
+    <img src="images/game_banners/banners_7.jpg" alt="banners 7">
+    <img src="images/game_banners/banners_8.jpg" alt="banners 8">
+    <img src="images/game_banners/banners_9.jpg" alt="banners 9">
+    <img src="images/game_banners/banners_10.jpg" alt="banners 10">
+  </div>
+  <div id="content2" class="content">
+    <img src="images/game_blogs/blogs_1.jpg" alt="blogs 1">
+    <img src="images/game_blogs/blogs_2.jpg" alt="blogs 2">
+    <img src="images/game_blogs/blogs_3.jpg" alt="blogs 3">
+    <img src="images/game_blogs/blogs_4.jpg" alt="blogs 4">
+  </div>
+  <div id="content3" class="content">
+    <img src="images/game_headers/headers_1.jpg" alt="headers 1">
+    <img src="images/game_headers/headers_2.jpg" alt="headers 2">
+    <img src="images/game_headers/headers_3.gif" alt="headers 3">
+    <img src="images/game_headers/headers_4.jpg" alt="headers 4">
+    <img src="images/game_headers/headers_5.gif" alt="headers 5">
+    <img src="images/game_headers/headers_6.jpg" alt="headers 6">
+  </div>
+  <div id="content4" class="content">
+    <img src="images/character_design/character_1.png" alt="character 1">
+    <img src="images/character_design/character_2.png" alt="character 2">
+    <img src="images/character_design/character_3.png" alt="character 3">
+    <img src="images/character_design/character_4.png" alt="character 4">
+  </div>
+  <div id="content5" class="content content5">
+    <div class="description">
+      <p class="description-text">Welcome to the web design section of my portfolio, featuring interactive website prototypes created with Adobe XD. Each prototype offers scrollable interfaces with dynamic animations. Explore these prototypes further by using the arrow buttons to navigate and discover more interactive designs.</p>
+    </div>
+    <div class="carousel" id="carousel">
+      <div class="iframe-wrapper">
+        <iframe src="https://xd.adobe.com/embed/43cc5a09-669e-4a5d-850c-ff6902055cd3-169f/" frameborder="0" allowfullscreen sandbox="allow-same-origin allow-scripts allow-pointer-lock allow-forms"></iframe>
+      </div>
+      <div class="iframe-wrapper" id="iframe-wrapper-1">
+        <iframe src="https://xd.adobe.com/embed/de516334-211e-4a34-890b-fd41a89c0a15-8b02/" frameborder="0" allowfullscreen sandbox="allow-same-origin allow-scripts allow-pointer-lock allow-forms"></iframe>
+      </div>
+      <div class="iframe-wrapper" id="iframe-wrapper-2">
+        <iframe src="https://xd.adobe.com/embed/93e0d42b-184e-4ea5-90e5-e395c2e88814-c6b3/" frameborder="0" allowfullscreen sandbox="allow-same-origin allow-scripts allow-pointer-lock allow-forms"></iframe>
+      </div>
+      <div class="iframe-wrapper" id="iframe-wrapper-3">
+        <iframe src="https://xd.adobe.com/embed/b0b59095-c440-415a-9454-d2256fa7845e-e5e6/" frameborder="0" allowfullscreen sandbox="allow-same-origin allow-scripts allow-pointer-lock allow-forms"></iframe>
+      </div>
+      <div class="iframe-wrapper" id="iframe-wrapper-4">
+        <iframe src="https://xd.adobe.com/embed/8e2ea284-0245-4c5b-81bc-93158014b1ac-db7d/" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="iframe-wrapper" id="iframe-wrapper-5">
+        <iframe src="https://xd.adobe.com/embed/7f3ac907-2959-40ec-9829-1fe416a7231f-2a69/" frameborder="0" allowfullscreen sandbox="allow-same-origin allow-scripts allow-pointer-lock allow-forms"></iframe>      </div>
+      <div class="iframe-wrapper" id="iframe-wrapper-6">
+        <iframe src="https://xd.adobe.com/embed/4f7d82a6-6227-487a-a455-72f4993b48bd-1a2e/" frameborder="0" allowfullscreen sandbox="allow-same-origin allow-scripts allow-pointer-lock allow-forms"></iframe>      </div>
+      <div class="iframe-wrapper" id="iframe-wrapper-7">
+        <iframe src="https://xd.adobe.com/embed/ba86fec5-b996-47ba-93dc-f2aada2e4b0c-efd5/" frameborder="0" allowfullscreen sandbox="allow-same-origin allow-scripts allow-pointer-lock allow-forms"></iframe>
+      </div>
+      <div class="iframe-wrapper" id="iframe-wrapper-8">
+        <iframe src="https://xd.adobe.com/embed/5a3f3da7-0828-43b1-9d39-d685688186c9-0f6c/" frameborder="0" allowfullscreen sandbox="allow-same-origin allow-scripts allow-pointer-lock allow-forms"></iframe>
+      </div>
+    </div>
+    <div class="arrow left" onclick="prevSlide()">&#10094;</div>
+    <div class="arrow right" onclick="nextSlide()">&#10095;</div>
+  </div>
+  <div id="content6" class="content">
+    <img src="images/blog_articles/articles_1.jpg" alt="articles 1">
+    <img src="images/blog_articles/articles_2.jpg" alt="articles 2">
+  </div>
+</div>
+
+<div class="back-to-top" onclick="scrollToTop()"><div class="button-up"></div></div>
+
+<footer>
+  <p>designed and built by </p><p class="p1">andee robite</p>
+  <a href="https://www.behance.net/andeerobite" target="_blank"><img src="images/be.png" alt="behance"></a>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
